@@ -4,7 +4,10 @@ language: R
 cache: packages
 # warnings are  errors
 warnings_are_errors: true
-
+branches:
+  -only:
+    -master
+    -SG6
 r_packages:
   - covr
 
